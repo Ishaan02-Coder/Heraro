@@ -19,6 +19,17 @@ pnpm-debug.log*
 .env.*
 !.env.example
 
+# Shell config files (local machine metadata)
+.bashrc
+.bash_profile
+.profile
+.zshrc
+.zprofile
+.gitconfig
+.gitmodules
+.mcp.json
+.ripgreprc
+
 # Editor / IDE
 .claude/
 .vscode/
