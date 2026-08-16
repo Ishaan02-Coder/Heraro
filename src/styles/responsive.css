@@ -1,0 +1,110 @@
+@media (max-width: 900px) {
+  .topbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 18px 16px;
+  }
+
+  .main-nav {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 0;
+  }
+
+  .hero-section,
+  .contact-hero,
+  .cta-panel,
+  .site-footer {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .three-up,
+  .steps-grid,
+  .results-grid,
+  .contact-details-grid,
+  .proof-row {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-copy,
+  .contact-copy,
+  .footer-top,
+  .footer-bottom {
+    text-align: center;
+  }
+
+  .cta-row,
+  .footer-top,
+  .footer-bottom {
+    justify-content: center;
+  }
+
+  .hero-visual {
+    min-height: 360px;
+  }
+
+  .cta-panel {
+    align-items: center;
+  }
+
+  .footer-top,
+  .footer-bottom {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 620px) {
+  .page-shell {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .brand-logo {
+    width: 176px;
+  }
+
+  .main-nav {
+    gap: 8px;
+    font-size: 0.8rem;
+  }
+
+  .hero-section {
+    padding-top: 52px;
+  }
+
+  .hero-copy h1 {
+    font-size: 2.9rem;
+  }
+
+  .section-heading h2,
+  .cta-panel h2,
+  .contact-copy h1 {
+    font-size: 2.2rem;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .floating-panel {
+    position: static;
+    margin-top: 18px;
+    width: 100%;
+  }
+
+  .site-footer {
+    padding-top: 22px;
+  }
+}
