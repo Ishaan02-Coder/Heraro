@@ -4,6 +4,7 @@ import Preloader from './components/Preloader'
 import TopBar from './components/TopBar'
 import HomePage from './components/HomePage'
 import ContactPage from './components/ContactPage'
+import HeraroLogo from './assets/images/Heraro.jpg'
 import './styles/base.css'
 import './styles/layout.css'
 import './styles/components.css'
@@ -33,7 +34,7 @@ function App() {
       <footer className="site-footer">
         <div className="footer-top">
           <div className="brand-wrap footer-brand">
-            <img src="/Heraro.jpg" alt="Heraro logo" className="brand-logo" />
+            <img src={HeraroLogo} alt="Heraro logo" className="brand-logo" />
           </div>
 
           <div className="footer-links">

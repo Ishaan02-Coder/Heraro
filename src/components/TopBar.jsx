@@ -1,10 +1,12 @@
+import HeraroLogo from '../assets/images/Heraro.jpg'
+
 function TopBar({ currentPage, setCurrentPage }) {
   return (
     <header className="topbar">
       {/* <div className="topbar-spacer" aria-hidden="true" /> */}
 
       <button type="button" className="brand-button" onClick={() => setCurrentPage('home')}>
-        <img src="/Heraro.jpg" alt="Heraro logo" className="brand-logo" />
+        <img src={HeraroLogo} alt="Heraro logo" className="brand-logo" />
       </button>
 
       <nav className="main-nav" aria-label="Primary navigation">

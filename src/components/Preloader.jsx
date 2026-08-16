@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
+import HeraroLogo from '../assets/images/Heraro.jpg'
 
 function Preloader({ active }) {
   const rootRef = useRef(null)
@@ -38,7 +39,7 @@ function Preloader({ active }) {
       <div className="preloader-orbit orbit-two" aria-hidden="true" />
       <div className="preloader-core">
         <div className="preloader-logo-wrap">
-          <img src="/Heraro.jpg" alt="Heraro logo" className="preloader-logo" />
+          <img src={HeraroLogo} alt="Heraro logo" className="preloader-logo" />
         </div>
         <div className="preloader-text">
           <span>Heraro</span>
